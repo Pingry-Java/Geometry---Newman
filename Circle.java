@@ -15,13 +15,13 @@ public class Circle
 		this.radius = 1.0;
 	}
 	
-	public Circle(Point center, Segment radius)
+	public Circle(Point center, double radius)
 	{
 		this.center = center;
 		this.radius = radius;
 	}
 	
-	public Circle(Segment radius)
+	public Circle(double radius)
 	{
 		this.center = new Point();
 		this.radius = radius;
